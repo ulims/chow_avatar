@@ -1,0 +1,21 @@
+name: chow_avatar_example
+description: "Demonstrates how to use the chow_avatar package."
+publish_to: 'none' 
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  chow_avatar:
+    path: ../
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+
+
